@@ -397,7 +397,7 @@ Resources:
                 - ecs:ListTasks
                 - ecs:DescribeTasks
                 - sns:Publish
-                - sns:ListSubscriptions
+                - sns:ListSubscriptionsByTopic
                 Resource: "*"
       AssumeRolePolicyDocument:
         Version: "2012-10-17"
